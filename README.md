@@ -4,8 +4,8 @@ Here you can find some guides (howtos) for the common technical tasks, some link
 
 ## Current howtos
 
-* [GPG-encryption and maven](howto/GPG_maven.md), create a GPG-key and configure the pom.xml file.
-* [Sync to maven central repository](howto/maven_central_repo_sync.md), prepare your maven project for pushing to the maven central repository to make it available for the community.
+* [PGP signatures and maven](howto/PGP_signatures_maven.md), configure maven to sign your files with PGP signatures.
+* [Sync to maven central repository](howto/maven_central_repo_sync.md), prepare your maven project for pushing to the maven central repository, to make your project available for the community.
 
 There are a lot of guides on GitHub, e.g. like [here](https://github.com/codeforamerica/howto).
 
