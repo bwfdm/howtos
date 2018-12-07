@@ -19,18 +19,24 @@ mvn nexus-staging:release
 
 ## Maven repositories
 
-    * Deploy snapshot artifacts into repository https://oss.sonatype.org/content/repositories/snapshots
-    * Deploy release artifacts into the staging repository https://oss.sonatype.org/service/local/staging/deploy/maven2
-    * Download snapshot and release artifacts from group https://oss.sonatype.org/content/groups/public
-    * Download snapshot, release and staged artifacts from staging group https://oss.sonatype.org/content/groups/staging
+* Deploy snapshot artifacts into repository -> https://oss.sonatype.org/content/repositories/snapshots
+* Deploy release artifacts into the staging repository -> https://oss.sonatype.org/service/local/staging/deploy/maven2
+* Download snapshot and release artifacts from group -> https://oss.sonatype.org/content/groups/public
+* Download snapshot, release and staged artifacts from staging group -> https://oss.sonatype.org/content/groups/staging
 
-Find "bwFDM" on maven central
+Find "bwFDM" on maven central repository
 * https://mvnrepository.com/search?q=bwfdm
 
 
 ## Example: config of "pom.xml" for "DSpace Connector" (all needed plugins)
 
 ````
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   
+    <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.github.bwfdm</groupId>
     <artifactId>dspace-connector</artifactId>
     <version>0.1.0</version>
@@ -202,4 +208,12 @@ Find "bwFDM" on maven central
                     
         </plugins>
     </build>
+    
+    <dependencies>
+         
+         <!-- Put all dependencies here -->
+         
+    </dependencies>  
+
+</project>       
 ````
