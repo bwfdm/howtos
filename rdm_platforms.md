@@ -6,6 +6,7 @@
 * [RDM tools](https://www.forschungsdaten.info/praxis-kompakt/links-zu-tools/)
 * [RDM tutorials](https://www.forschungsdaten.info/praxis-kompakt/links-zu-tutorials/)
 * [RDM videos](https://www.forschungsdaten.info/praxis-kompakt/links-zu-videos/)
+* [RDM Glossary/Terminology](https://www.forschungsdaten.info/support/glossar/)
 
 #### Forschungsdaten.org
 
