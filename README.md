@@ -13,4 +13,6 @@ There are a lot of guides on GitHub, e.g. like [here](https://github.com/codefor
 
 * [RDM platforms](rdm_platforms.md), Research Data Management platforms whith the main information, should be used as an entry point to RDM   
 * [RDM materials](rdm_materials.md), links to different materials (e.g. courses, slides etc.), which should be avaialble as Open Access
+* Glossary/Terminology for RDM (in German): https://www.forschungsdaten.info/support/glossar/
+* ..
 
